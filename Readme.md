@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Alexey Ruchkin](https://up.htmlacademy.ru/htmlcss/36/user/2197485).
-* Наставник: `Неизвестно`.
+* Наставник: [Michail Kisliy]
 
 ---
 
