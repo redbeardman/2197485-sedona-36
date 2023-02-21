@@ -33,3 +33,31 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+ /* i have quastion */
+.backgroung {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("img/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.text {
+  text-align: center;
+}
+.search-hotels {
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+
+}
+ /* i have quastion  */
+.subscription {
+  background-image: url("img/subscribe.jpg");
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.main-footer a {
+  color: #000000;
+  background:#FFFFFF;
+}
