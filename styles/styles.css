@@ -33,13 +33,18 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-
+/*
+.site-navigation{
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+*/
 .hero {
   background-image: url("../img/index-bg.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-
 .text {
   text-align: center;
   color: #000000;
@@ -50,14 +55,13 @@ body {
   color: #000000;
   background-color: #FFFFFF;
 }
-
 .subscription {
   background-image: url("../img/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   text-align: center;
   color: #FFFFFF;
 }
-
-
 .main-footer a {
   color: #000000;
   background:#FFFFFF;
@@ -69,4 +73,14 @@ body {
   text-align: center;
   background-color: #FFFFFF;
   color: #000000;
+}
+IMG.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+ }
+
+ .visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
