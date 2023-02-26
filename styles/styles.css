@@ -144,3 +144,15 @@ IMG.logo {
 .product-list {
   text-decoration: none;
 }
+.pagination{
+  color:#FFFFFF;
+}
+.pagination-link {
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+}
