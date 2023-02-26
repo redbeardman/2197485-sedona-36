@@ -17,7 +17,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color:black;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
 }
 .main-header {
   color:#000000;
@@ -25,13 +25,25 @@ body {
 }
 .navigation-link  {
   font-family: "PT Sans", sans-serif;
-  line-height: 21px ;
+  line-height: 24px ;
   color:#000000;
   font-weight: 700;
   text-align: center;
   background:#FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 20px;
+}
+.want {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 50px 8px 50px;
+  background-color: #756157;
+  color:#FFFFFF;
+}
+.main-index {
+  color:#000000;
+  background-color: #FFFFFF;
 }
 /*
 .site-navigation{
@@ -44,16 +56,32 @@ body {
   background-image: url("../img/index-bg.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-size: 100% auto;
 }
 .text {
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
 }
+h2 {
+  font-family: "PT sans", sans-serif ;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
 .search-hotels {
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
+
+}
+.main-hotels {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 50px 8px 50px;
+  background-color: #756157;
+  color:#FFFFFF;
+  text-decoration: none;
 }
 .subscription {
   background-image: url("../img/subscribe.jpg");
@@ -69,6 +97,9 @@ body {
 .main-footer{
   background-color: #FFFFFF;
 }
+.phone {
+  text-decoration: none;
+}
 .invitation {
   text-align: center;
   background-color: #FFFFFF;
@@ -83,4 +114,9 @@ IMG.logo {
  .visually-hidden {
   position: fixed;
   transform: scale(0);
+}
+
+  ul {
+    list-style-type: none;
+    display: inline;
 }
