@@ -21,6 +21,8 @@ body {
   line-height: 21px;
   color:black;
   background-color: #F2F2F2;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .reset-list {
@@ -30,6 +32,7 @@ body {
 }
 
 .main-header {
+  display: grid;
   color:#000000;
   background: #FFFFFF;
 }
