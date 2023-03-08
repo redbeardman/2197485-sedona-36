@@ -32,9 +32,12 @@ body {
 }
 
 .main-header {
-  display: grid;
   color:#000000;
   background: #FFFFFF;
+}
+
+.main-navigation {
+  display: flex;
 }
 
 .navigation-link  {
@@ -116,12 +119,29 @@ body {
   background:#FFFFFF;
 }
 
-.main-footer{
-  background-color: #FFFFFF;
+.footer-link {
+  display: flex;
+  padding: 15px;
 }
 
+.main-footer {
+  background-color: #FFFFFF;
+  display: flex;
+  width: auto;
+ margin: 0 auto;
+ padding: 10px;
+ align-items: center;
+ justify-content:space-between;
+}
+/*
+.footer-link{
+ margin-block: 15px;
+}
+*/
 .phone {
   text-decoration: none;
+  size: 40px;
+  font-family: "PT sans", sans-serif;
 }
 
 .invitation {
@@ -136,7 +156,7 @@ img.logo {
   margin-right: auto
  }
 
-.main-inner{
+.main-inner {
   background-color: #FFFFFF;
 }
 
@@ -228,3 +248,25 @@ img.logo {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
+
+  .block-house,
+  .block-suvenir {
+width: 200px;
+ height: 200px;
+ outline: none ;
+ background-color: rgba(131, 179, 211, 0.2);
+ color: #000000;
+  }
+
+.block-food {
+  width: 200px;
+  height: 200px;
+  outline: none;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: black;
+ }
+
+.reset-list {
+  display: flex;
+  justify-content:center;
+}
