@@ -82,6 +82,7 @@ body {
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
+  padding: 69px 0px 69px 0px;
 }
 
 .heading {
@@ -269,4 +270,12 @@ width: 200px;
 .reset-list {
   display: flex;
   justify-content:center;
+}
+
+.invitation {
+  padding: 64px 0px 64px 0px;;
+}
+
+.search-hotels {
+ padding: 96px 304px 96px 304px ;
 }
