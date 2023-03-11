@@ -77,6 +77,11 @@ margin-left: auto;
   color:#FFFFFF;
 }
 
+.page-container {
+width: 1200px;
+margin: 0 auto;
+}
+
 .main-index {
   color:#000000;
   background-color: #FFFFFF;
@@ -131,7 +136,15 @@ margin-left: auto;
   background:#FFFFFF;
 }
 
+.page-footer-container {
+   width: 1200px;
+   margin: 0 auto;
+   display: flex;
+ }
+
 .footer-link {
+  width: 142px;
+  margin-right: 92px;
   display: flex;
   padding: 15px;
 }
@@ -144,22 +157,20 @@ margin-left: auto;
   background-color: #FFFFFF;
   display: flex;
   width: auto;
- margin: 0 auto;
- padding: 10px;
- align-items: center;
- justify-content:space-between;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+  justify-content:space-between;
 }
-/*
-.footer-link{
- margin-block: 15px;
+
+.contact-adress {
+ text-align: center;
 }
-*/
+
 .phone {
-  width: 720px;
-  height: 50px;
   text-decoration: none;
-  size: 40px;
   font-family: "PT sans", sans-serif;
+  text-align: center;
 }
 
 .invitation {
@@ -219,6 +230,16 @@ img.logo {
 
 .advantages {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 .advantages-item {
@@ -246,14 +267,6 @@ img.logo {
  color: #000000;
 }
 
-.advantages-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap:wrap;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -265,6 +278,14 @@ img.logo {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  }
+
+  .recommendation {
+   justify-content: space-between;
+   display: flex;
+   text-align:center;
+   margin: 0;
+   padding: 0;
   }
 
   .block-house,
