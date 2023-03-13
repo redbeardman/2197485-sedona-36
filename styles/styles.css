@@ -371,6 +371,7 @@ img.logo {
   height: 50px;
 }
 
-.inner-header{
- background: url("...img/catalog-background.jpg");
+.subscript {
+  text-align: center;
+  padding: 200px 250px;
 }
