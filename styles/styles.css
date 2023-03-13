@@ -44,6 +44,18 @@ html {
   background: #FFFFFF;
 }
 
+.invitation {
+  padding: 64px 0px;
+}
+
+.search-hotels {
+ padding: 96px 304px;
+}
+
+.navigation-item {
+  margin-right: 20px;
+}
+
 .main-navigation {
   display: flex;
   width: 1200px;
@@ -139,7 +151,11 @@ margin: 0 auto;
 }
 
 .subsription-item {
-  padding: 100px 256px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  padding: 100px 390px;
+
 }
 
 .main-footer a {
@@ -245,22 +261,6 @@ img.logo {
   text-align: center;
   align-items: center;
 }
-/*
-.advantages {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-/*
-.advantages-list {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap:wrap;
-}
-*/
 
 .line-one {
  display: inline-flex;
@@ -354,14 +354,23 @@ img.logo {
   justify-content:center;
 }
 
-.invitation {
-  padding: 64px 0px;
+.submit {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  border: none;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 8px 50px;
 }
 
-.search-hotels {
- padding: 96px 304px;
+#email {
+  width: 450px;
+  height: 50px;
 }
 
-.navigation-item {
-  margin-right: 20px;
+.inner-header{
+ background: url("...img/catalog-background.jpg");
 }
