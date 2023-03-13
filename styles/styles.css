@@ -208,7 +208,7 @@ img.logo {
 }
 
 .inner-header-title {
-  font-family: "PT sans" sans-serif;
+  font-family: "PT sans", sans-serif;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -245,13 +245,14 @@ img.logo {
   text-align: center;
   align-items: center;
 }
-
+/*
 .advantages {
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
 
+/*
 .advantages-list {
   margin: 0 auto;
   padding: 0;
@@ -259,8 +260,35 @@ img.logo {
   display: flex;
   flex-wrap:wrap;
 }
+*/
 
-  /* ТУТ */
+.line-one {
+ display: inline-flex;
+ vertical-align: top;
+ padding: 0;
+ margin: 0 auto;
+ list-style-type: none;
+ text-align: center;
+}
+
+.line-two {
+  display: inline-flex;
+  vertical-align: top;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.line-thee {
+  display: flex;
+  vertical-align: top;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+  text-align: center;
+}
+
 .advantages-item {
   padding: 93px 85px;
   outline: none;
