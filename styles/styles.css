@@ -33,6 +33,7 @@ h3 {
 html {
   height: 100%;
 }
+
 .reset-list {
   margin: 0;
   padding: 0;
@@ -155,7 +156,6 @@ margin: 0 auto;
   font-style: normal;
   font-weight: 700;
   padding: 100px 390px;
-
 }
 
 .main-footer a {
@@ -221,7 +221,6 @@ img.logo {
 
 .main-inner {
   background-color: #FFFFFF;
-
 }
 
 .inner-header-title {
@@ -237,7 +236,6 @@ img.logo {
  padding: 102px 85px;
 }
 
-
 .product-card-title {
   color:#000000;
   background-color: #FFFFFF;
@@ -246,13 +244,13 @@ img.logo {
 .product-card-link {
   text-decoration: none;
 }
+
 .product-card-button {
   text-decoration: none;
 }
 
 .product-list {
   text-decoration: none;
-  display:
 }
 
 .catalog-products{
@@ -262,13 +260,11 @@ img.logo {
 }
 
 .pagination{
-
   background-color:#FFFFFF;
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
-
 }
 
 .pagination-item:not(:last-child) {
@@ -358,26 +354,12 @@ img.logo {
    margin: 0;
    padding: 0;
   }
-/*
-  .block-house,
-  .block-suvenir {
- outline: none ;
- background-color: rgba(131, 179, 211, 0.2);
- color: #000000;
- padding: 81px 85px;
-  }
 
-.block-food {
-  outline: none;
-  background-color: rgba(131, 179, 211, 0.12);
-  color: black;
-  padding: 81px 85px;
- }
-*/
 .block {
   width: 400px;
   height: 385px;
 }
+
 .house,
 .suvenir {
   background-color: rgba(131, 179, 211, 0.2);
@@ -387,11 +369,6 @@ img.logo {
 .option-block {
   padding: 81px 85px;
 }
-
-
-
-
-
 
 .reset-list {
   display: flex;
@@ -423,7 +400,6 @@ img.logo {
 .inner-header-title{
   background-image: url("../img/backfon.jpg");
   text-align:center;
-
 }
 
 .sedona-link {
