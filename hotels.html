@@ -50,20 +50,20 @@
    </header>
 
    <main class="main-inner">
-
-    <header class="inner-header">
-      <h1 class="inner-header-title">Гостиницы Седоны</h1>
-      <ul class="sedona reset-list">
-        <li class="sedona-item">
-          <a class="sedona-link" href="index.html">Главная</a>
-         </li>
+    <div class="window">
+      <header class="inner-header">
+       <h1 class="inner-header-title">Гостиницы Седоны</h1>
+       <ul class="sedona reset-list">
          <li class="sedona-item">
+          <a class="sedona-link" href="index.html">Главная</a>
+          </li>
+          <li class="sedona-item">
           <a class="sedona-link">Гостиницы</a>
-        </li>
-      </ul>
-    </header>
+         </li>
+        </ul>
+      </header>
 
-    <section class="filter-hotels">
+     <section class="filter-hotels">
       <h2 class="visually-hidde">Список услуг с фильтрами</h2>
       <form class="filter-options" action="http://echo.htmlacademy.ru/" method="get">
 
@@ -98,27 +98,28 @@
           <legend class="catalog-filter">Тип жилья</legend>
           <ul class="catalog-filter-list reset-list">
             <li class="catalog-filter-item">
-          <label class="control">
-            <input class="control-input" type="radio" name="choose" value="hotel" checked>
-            Гостиница
-          </label>
-          </li>
+             <label class="control">
+              <input class="control-input" type="radio" name="choose" value="hotel" checked>
+              Гостиница
+             </label>
+           </li>
 
-          <li class="catalog-filter-item">
+           <li class="catalog-filter-item">
             <label class="control">
               <input class="control-input" type="radio" name="choose" value="motel">
               Мотель
             </label>
              </li>
-          <li class="catalog-filter-item">
+           <li class="catalog-filter-item">
             <label class="control">
              <input class="control-input" type="radio" name="choose" value="appart">
                 Аппартаменты
               </label>
               </li>
-              </ul>
+          </ul>
         </fieldset>
-
+      </div>
+        <p>Найдено гостинец:38</p>
         <button class="button" type="submit">Показать</button>
       </form>
 
@@ -185,6 +186,9 @@
         </li>
         <li class="pagination-item">
           <a class="pagination-link pagination-current">4</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link pagination-current">10</a>
         </li>
         <li class="pagination-item">
           <a class="pagination-limk pagination-next" href="#">

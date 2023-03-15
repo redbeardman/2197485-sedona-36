@@ -221,6 +221,7 @@ img.logo {
 
 .main-inner {
   background-color: #FFFFFF;
+
 }
 
 .inner-header-title {
@@ -250,6 +251,7 @@ img.logo {
 
 .pagination{
   color:#FFFFFF;
+
 }
 
 .pagination-link {
@@ -260,6 +262,7 @@ img.logo {
   font-weight: 700;
   text-align: center;
   align-items: center;
+
 }
 
 .line-one {
@@ -374,4 +377,38 @@ img.logo {
 .subscript {
   text-align: center;
   padding: 200px 250px;
+}
+
+.inner-header-title{
+  background-image: url("../img/backfon.jpg");
+  text-align:center;
+
+}
+
+.sedona-link {
+  text-decoration: none;
+  color:#F2F2F2
+}
+
+.window {
+  background-image: url("../img/backfon.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% auto;
+  color: #FFFFFF;
+}
+
+.select-control{
+display: flex;
+color: #000000;
+margin-bottom: 14px;
+padding: 16px;
+padding-right: 130px;
+background-color: #ffffff;
+border-color: #E5E5E5;
+}
+
+.select-control .button {
+  width: 56px;
+  height: 44px;
 }
