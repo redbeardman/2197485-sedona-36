@@ -233,14 +233,10 @@ img.logo {
   background-color: #FFFFFF;
 }
 
-.advantages-title {
+.advantages-option {
  padding: 102px 85px;
- margin: 0;
 }
-.advantages-description{
-  padding: 60px 85px 110px 85px;
 
-}
 
 .product-card-title {
   color:#000000;
